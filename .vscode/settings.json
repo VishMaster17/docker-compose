@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "java-docker/src/main/java/com/docker"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic"
+}
