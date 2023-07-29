@@ -1,10 +1,14 @@
 version: '3'
 services:
   my-express-app:
-    image: public.ecr.aws/a3c8r6z9/my-express-app:1.0.1
+    image: docker007.azurecr.io/my-express-app:1.0.1
     ports:
       - "3000:3000"
   java-docker:
-    image: public.ecr.aws/a3c8r6z9/java-docker:1.0.0
+    image: docker007.azurecr.io/java-docker:1.0.0
     ports:
       - "8080:8080"
+  python-app:
+    image: docker007.azurecr.io/python-app:1.0.1
+    ports:
+      - "8081:8081"
